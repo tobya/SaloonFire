@@ -16,6 +16,12 @@
         protected $connector;
 
 
+      /**
+       * Disable Caching for this and all future requests. Caching will remain
+       * disabled (for duration of request cycle) until explicity set to false;
+       * @param $disableCaching
+       * @return $this
+       */
         public function disableCaching($disableCaching = true) : static
         {
             $this->disableCaching = $disableCaching;
