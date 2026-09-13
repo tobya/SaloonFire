@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tobya/saloonfire.svg?style=flat-square)](https://packagist.org/packages/tobya/saloonfire)
 
 
-This package contains the SaloonFire class that is needed for the SaloonForge generated Api Class.
+This package contains the SaloonFire class that is needed for the [SaloonForge](https://github.com/tobya/SaloonForge) generated Api Class.
 
 
 
