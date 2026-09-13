@@ -31,7 +31,7 @@
        */
         protected function applymodifiers(Request $request) : Request
         {
-            
+
             if ( $this->disableCaching ){
 
               if(method_exists($request,'disableCaching'))
@@ -60,9 +60,9 @@
 
 
 
-          public function getRequest() : static
+          public function getRequest($return = true) : static
           {
-              $this->shouldReturnRequest = true;
+              $this->shouldReturnRequest = $return;
               return $this;
           }
 
